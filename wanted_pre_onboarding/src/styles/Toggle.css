@@ -1,0 +1,28 @@
+.box a {
+    display: inline-block;
+    width: 188px;
+    height: 30px;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 35px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.box a.active {
+    width: 188px;
+    height: 30px;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 600;
+    border-radius: 35px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.box {
+    background-color: #efefef;
+    border-radius: 35px;
+    padding: 3px;
+}
