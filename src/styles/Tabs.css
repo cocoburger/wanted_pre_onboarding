@@ -1,0 +1,30 @@
+.simple-tabs {
+    display: block;
+    width: 1200px;
+    background: rgba(157, 156, 154, 0.04);
+}
+
+.tabs{
+    margin:15vh 0 0 0;
+    width:100%;
+    text-align:center;
+}
+
+button{
+    width: 200px;
+    margin:5%;
+    font-size:20px;
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:10px 20px ;
+    cursor:pointer;
+    color:rgba(0,0,0,.4);
+    transition:all ease-in-out .3s;
+    border-bottom:2px solid transparent;
+}
+
+.active{
+    border-bottom:2px solid #1db082;
+    color:black;
+}

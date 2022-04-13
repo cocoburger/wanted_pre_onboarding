@@ -18,7 +18,9 @@
     border-radius: 35px;
     line-height: 30px;
     text-align: center;
-    transition: all 0.3s ease-in-out;
+    transition-property:transform, background;
+    transition-duration:0.6s;
+    transition-timing-function: ease;
 }
 
 .box {
