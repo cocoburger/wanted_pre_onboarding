@@ -26,3 +26,14 @@ input {
     color: #000000;
     border-radius: 10px 10px 10px 10px;
 }
+
+.inputWrapper {
+    position: relative;
+}
+
+.inputWrapper .icon {
+    position: absolute;
+    left: 230px;
+    top: 8px;
+    color: #000000;
+}
